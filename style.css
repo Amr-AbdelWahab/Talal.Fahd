@@ -182,11 +182,14 @@ section{
 
 /* ------------------------ */
 
+.headTitle{
+    padding-top: 100px;
+}
 .headTitle img{
     height: 100px;
 }
 .headTitleLogo{
-    /* border-right;: 5px solid var(--second-color); */
+    /* border-right: 5px dashed var(--second-color); */
     width: 60px;
     overflow: hidden;
     display: flex;
