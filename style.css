@@ -396,7 +396,7 @@ section{
         .educat .content p{
             border-right: 3px solid var(--second-color);
             padding-right: 7px;
-            font-size: 1rem;
+            font-size: 1.3rem;
             font-weight: 600;
         }
         
@@ -423,7 +423,6 @@ footer{
     width: 100%;
     background-color: var(--second-color);
     color: var(--main-color);
-    /* height: 50px; */
 }
 
 .info-container,
@@ -467,3 +466,78 @@ footer{
     color: #EA9C23;
 
 }
+
+
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+@media (max-width: 1199px)
+    {
+        footer h1{
+            font-size: 2rem;
+        }
+        .info-container i{
+            font-size: 1.7rem;
+            margin: 18px;
+            padding: 8px;
+            margin-top: 20px;
+        }
+        .copyrights-cont{
+            font-size: 1.1rem;
+            margin-top: 15px;
+            padding: 15px;
+        }
+
+        
+    }
+
+@media (max-width: 991px)
+    {
+        footer h1{
+            font-size: 1.5rem;
+        }
+        .info-container i{
+            font-size: 1.5rem;
+            margin: 15px;
+            padding: 6px;
+            margin-top: 15px;
+        }
+        .copyrights-cont{
+            font-size: 1.1rem;
+            margin-top: 15px;
+            padding: 15px;
+        }
+        
+    }
+@media (max-width: 767px)
+    {
+        footer h1{
+            font-size: 1rem;
+        }
+        .info-container{
+            flex-direction: column;
+        }
+        .info-container i{
+            font-size: 1.2rem;
+            margin: 12px;
+            padding: 4px;
+            margin-top: 10px;
+        }
+        .copyrights-cont{
+            font-size: 1.0rem;
+            margin-top: 10px;
+            padding: 10px;
+            flex-direction: column;
+        }
+        .separate{
+            display: none;
+        }
+
+
+    }
+
+
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+
