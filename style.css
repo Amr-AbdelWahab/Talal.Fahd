@@ -199,6 +199,10 @@ section{
     /* height: 100%; */
     flex-direction: column;
 }
+.look img{
+    width: 450px;
+}
+
 
 /* --------------------------------------------- */
 .landing .social{
