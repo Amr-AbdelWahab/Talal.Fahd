@@ -225,3 +225,13 @@ section{
 .odweat .fDirCol {
     align-items: flex-start;
 }
+
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    background-color: var(--second-color);
+    color: var(--main-color);
+    height: 50px;
+}
