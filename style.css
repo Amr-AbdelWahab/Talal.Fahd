@@ -156,12 +156,19 @@ section{
     padding: 0;
     /* border: 1px solid #000; */
 }
-.landing .social img{
-    height: 3rem;
+
+.landing .social i
+{
+    border-radius: 50%;
+    color: var(--second-color);
+    border: 3px solid var(--second-color);
+    font-size: 2rem;
     margin: 0 15px;
     transition: var(--trans);
 }
-.landing .social img:hover{
+
+.landing .social i:hover
+{
     transform: scale(1.2);
 }
 .landing .info{
@@ -251,7 +258,7 @@ footer{
 .info-container .socialContainer{
     
 }
-.info-container i{
+.info-container i, i{
     font-size: 30px;
     margin: 20px;
     padding: 10px;
