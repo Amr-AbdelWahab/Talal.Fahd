@@ -116,7 +116,6 @@ nav{
     width: 100%;
     background-color: var(--second-color);
     color: var(--main-color);
-    overflow: hidden;
 
     /* height: 50px; */
 }
@@ -169,7 +168,6 @@ nav li:hover
     nav{
         height: 5rem;
         z-index: 100;
-        overflow: hidden;
         /* right: 0; */
 
     }
@@ -363,7 +361,6 @@ section{
 }
 .headTitleLogo{
     width: 40px;
-    /* overflow: hidden; */
     display: flex;
 }
 .headTitle h2{
@@ -382,7 +379,6 @@ section{
     margin: auto;
     margin-top: 60px;
     width: 80%;
-    /* justify-content: space-between; */
 }
 .educat .content p{
     border-right: 5px solid var(--second-color);
