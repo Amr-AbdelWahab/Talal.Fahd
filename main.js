@@ -29,3 +29,20 @@ hamIcon.addEventListener('click', () =>  {
     mob.classList.toggle("mobShow");
     
 });
+
+
+var list = Array.from(document.querySelectorAll('.mob li'));
+console.log(list);
+    list.forEach(function(){
+        this.addEventListener('click', () => {
+            mob.classList.toggle("mobShow");
+            console.log("clicked");
+        });
+    });
+
+
+// list.forEach(function () {
+//     this.addEventListener('click', () =>  {
+//         mob.classList.toggle("mobShow");
+// });
+
