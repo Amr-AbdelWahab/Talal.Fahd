@@ -16,3 +16,16 @@ window.onscroll = function () {
 //     behavior: "smooth",
 //   });
 // };
+
+
+//HAM ICON
+let hamIcon = document.querySelector(".hamIcon");
+let mob = document.querySelector(".mob");
+console.log(hamIcon);
+console.log(mob);
+
+hamIcon.addEventListener('click', () =>  {
+    console.log("sss");
+    mob.classList.toggle("mobShow");
+    
+});
