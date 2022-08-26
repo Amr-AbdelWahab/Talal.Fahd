@@ -11,6 +11,7 @@
 :root{
     --main-color:#e6e5e5;
     --second-color: #606161;
+    --ali-color:#EA9C23;
     --trans: all 0.5s ease;
 }
 
@@ -239,6 +240,9 @@ section{
 .info .social i:hover
 {
     transform: scale(1.2);
+    color: black;
+    border-color: black;
+
 }
 
 .info .callMe{
@@ -451,6 +455,8 @@ footer{
     width: 100%;
     background-color: var(--second-color);
     color: var(--main-color);
+    /* z-index: 99; */
+
 }
 
 .info-container,
@@ -499,16 +505,11 @@ footer{
 
 
 
-
-
-
-
-.callMeBtm{
+/* .callMeBtm{
     position: relative;
     display: inline-block;
     border-radius: 1rem;
     border: none;
-    color: red;
 }
 .callMeBtm::after{
     content: "+965 979 792 66";
@@ -534,7 +535,7 @@ footer{
 }
 .callMeBtm:hover
 {
-    /* transform: scale(1.0) !important; */
+    transform: scale(1.0) !important;
 }
 .callMeBtm:hover.callMe::after
 {
@@ -542,7 +543,7 @@ footer{
     height: 1.8rem;
     font-size: inherit;
     opacity: 1;
-}
+} */
 
 
 
@@ -619,3 +620,33 @@ footer{
 /* ------------------------------------------------------------- */
 /* ------------------------------------------------------------- */
 
+.goUp{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    border-radius: 50%;
+    z-index: 100;
+    transition: var(--trans);
+    transform: scale(0);
+  }
+  .goUp i{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: var(--second-color);
+    color: var(--main-color);
+    transition: var(--trans);
+  }
+  .goUp i:hover {
+    color: var(--second-color);
+    background-color: var(--main-color);
+  }
+  .UpShow{
+    transform: scale(1);
+  }
+  @media (max-width: 767px) {
+    .goUp{right: 1rem;}
+    .UpShow{transform: scale(0.8);}
+  }
+  
