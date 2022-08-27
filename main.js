@@ -40,6 +40,14 @@ console.log(list);
         });
     });
 
+let mobLi = document.querySelectorAll("nav li").forEach(n => n.addEventListener("click", () => {
+    mob.classList.toggle("mobShow");
+}))
+
+let logo = document.querySelector(".logo");
+logo.addEventListener("click", () => {
+    mob.classList.remove("mobShow");
+})
 
 // list.forEach(function () {
 //     this.addEventListener('click', () =>  {

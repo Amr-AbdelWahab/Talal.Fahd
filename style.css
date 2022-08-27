@@ -109,6 +109,22 @@ body{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav{
     position: fixed;
     top: 0;
@@ -168,12 +184,12 @@ nav li:hover
     nav{
         height: 5rem;
         z-index: 100;
-        /* right: 0; */
 
     }
 
     nav .mob {
         display: none;
+        min-width: 75px;    
     }
     nav .mob li {
         width: 100%;
@@ -182,6 +198,14 @@ nav li:hover
         align-items: center;
         transition: var(--trans);
 
+    }
+    nav .mob a{
+        display: block;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
